@@ -16,6 +16,8 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    NSLog(@"%s",__func__);
+
     self.ws = [[MBWebSocketServer alloc] initWithPort:9000 delegate:self];
     [super viewDidLoad];
 

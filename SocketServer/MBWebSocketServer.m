@@ -53,7 +53,7 @@ static unsigned long long ntohll(unsigned long long v) {
     NSString *string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     NSArray *strings = [string componentsSeparatedByString:@"\r\n"];
 
-    if (strings.count && [strings[0] isEqualToString:@"GET /chat HTTP/1.1"])
+    if (strings.count && [strings[0] isEqualToString:@"GET / HTTP/1.1"])
         for (NSString *line in strings) {
             NSArray *parts = [line componentsSeparatedByString:@":"];
             if (parts.count == 2 && [parts[0] isEqualToString:@"Sec-WebSocket-Key"]) {
@@ -66,7 +66,7 @@ static unsigned long long ntohll(unsigned long long v) {
                         "Sec-WebSocket-Accept: %@\r\n\r\n",
                         secWebSocketAccept];
             }
-        }
+        } 
 
     @throw @"Invalid handshake from client";
 }
