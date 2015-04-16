@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0085561ADF1C6200591142 /* FNNetServicePublisher.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0085551ADF1C6200591142 /* FNNetServicePublisher.m */; };
+		AB0085591ADF1DC000591142 /* FNNetServiceStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0085581ADF1DC000591142 /* FNNetServiceStreamer.m */; };
 		AB406FFF1AD99EA1001F75A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB406FFE1AD99EA1001F75A0 /* AppDelegate.m */; };
 		AB4070011AD99EA1001F75A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4070001AD99EA1001F75A0 /* main.m */; };
 		AB4070041AD99EA1001F75A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4070031AD99EA1001F75A0 /* ViewController.m */; };
 		AB4070061AD99EA1001F75A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4070051AD99EA1001F75A0 /* Images.xcassets */; };
 		AB4070091AD99EA1001F75A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4070071AD99EA1001F75A0 /* Main.storyboard */; };
-		AB4070221AD99EBB001F75A0 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = AB40701F1AD99EBB001F75A0 /* GCDAsyncSocket.m */; };
-		AB4070231AD99EBB001F75A0 /* MBWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4070211AD99EBB001F75A0 /* MBWebSocketServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB0085541ADF1C6200591142 /* FNNetServicePublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNNetServicePublisher.h; sourceTree = "<group>"; };
+		AB0085551ADF1C6200591142 /* FNNetServicePublisher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNNetServicePublisher.m; sourceTree = "<group>"; };
+		AB0085571ADF1DC000591142 /* FNNetServiceStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNNetServiceStreamer.h; sourceTree = "<group>"; };
+		AB0085581ADF1DC000591142 /* FNNetServiceStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNNetServiceStreamer.m; sourceTree = "<group>"; };
 		AB406FF81AD99EA1001F75A0 /* SocketServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB406FFC1AD99EA1001F75A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB406FFD1AD99EA1001F75A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,10 +30,6 @@
 		AB4070031AD99EA1001F75A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AB4070051AD99EA1001F75A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB4070081AD99EA1001F75A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB40701E1AD99EBB001F75A0 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		AB40701F1AD99EBB001F75A0 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		AB4070201AD99EBB001F75A0 /* MBWebSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBWebSocketServer.h; sourceTree = "<group>"; };
-		AB4070211AD99EBB001F75A0 /* MBWebSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBWebSocketServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +62,10 @@
 		AB406FFA1AD99EA1001F75A0 /* SocketServer */ = {
 			isa = PBXGroup;
 			children = (
-				AB40701E1AD99EBB001F75A0 /* GCDAsyncSocket.h */,
-				AB40701F1AD99EBB001F75A0 /* GCDAsyncSocket.m */,
-				AB4070201AD99EBB001F75A0 /* MBWebSocketServer.h */,
-				AB4070211AD99EBB001F75A0 /* MBWebSocketServer.m */,
+				AB0085541ADF1C6200591142 /* FNNetServicePublisher.h */,
+				AB0085551ADF1C6200591142 /* FNNetServicePublisher.m */,
+				AB0085571ADF1DC000591142 /* FNNetServiceStreamer.h */,
+				AB0085581ADF1DC000591142 /* FNNetServiceStreamer.m */,
 				AB406FFD1AD99EA1001F75A0 /* AppDelegate.h */,
 				AB406FFE1AD99EA1001F75A0 /* AppDelegate.m */,
 				AB4070021AD99EA1001F75A0 /* ViewController.h */,
@@ -155,11 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB4070231AD99EBB001F75A0 /* MBWebSocketServer.m in Sources */,
-				AB4070221AD99EBB001F75A0 /* GCDAsyncSocket.m in Sources */,
+				AB0085561ADF1C6200591142 /* FNNetServicePublisher.m in Sources */,
 				AB4070041AD99EA1001F75A0 /* ViewController.m in Sources */,
 				AB4070011AD99EA1001F75A0 /* main.m in Sources */,
 				AB406FFF1AD99EA1001F75A0 /* AppDelegate.m in Sources */,
+				AB0085591ADF1DC000591142 /* FNNetServiceStreamer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
